@@ -40,7 +40,7 @@ header{
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 50;
 }
 header nav{ 
   padding: 0 50px;
@@ -83,6 +83,7 @@ header nav{
   overflow: hidden;
   width: 100%;
   height: 700px;
+  z-index: 20;
 }
 #key-visual video{
   position: absolute;
@@ -104,6 +105,7 @@ header nav{
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   width: clamp(320px, 60%, 640px);
+  z-index: 40;
 }
 
 #concept{
@@ -116,7 +118,6 @@ header nav{
   display: flex;
   align-items: center;
   padding: 0px clamp(20px, 5%, 100px);
-  
 }
 #concept::before{
   position:fixed;
@@ -124,7 +125,7 @@ header nav{
     left:0;
     z-index:-1;
     width:100vw;
-    height:100vh;
+    /* height:100vh; */
     background:url("img/header-img.png") no-repeat;
     -webkit-background-size:contain;
     background-size:contain;
@@ -165,7 +166,7 @@ header nav{
     left:0;
     z-index:-1;
     width:100vw;
-    height:100vh;
+    /* height:100vh; */
     background:url("img/feature.png") no-repeat;
     -webkit-background-size:contain;
     background-size:contain;
