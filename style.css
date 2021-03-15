@@ -116,7 +116,21 @@ header nav{
   display: flex;
   align-items: center;
   padding: 0px clamp(20px, 5%, 100px);
+  
 }
+#concept::before{
+  position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+    background:url("img/header-img.png") no-repeat;
+    -webkit-background-size:contain;
+    background-size:contain;
+    content:"";
+}
+
 #concept-text{
   color: #FFFFFF;
   opacity: 0;
@@ -144,6 +158,18 @@ header nav{
   background-size: cover;
   background-position: 55% 0px;
   height: 3500px;
+}
+#feature::before{
+  position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    width:100vw;
+    height:100vh;
+    background:url("img/feature.png") no-repeat;
+    -webkit-background-size:contain;
+    background-size:contain;
+    content:"";
 }
 
 .feature-contents{
