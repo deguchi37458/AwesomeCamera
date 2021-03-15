@@ -199,7 +199,7 @@ header nav{
 #weight .feature-text li{
   display: inline-block;
   margin-bottom: 15px;  
-  margin-right: 25px;
+  margin-right: 15px;
 }
 
 span.bold{
@@ -254,7 +254,6 @@ footer #inner .fab{
 footer #inner .fab:hover{
   opacity: 0.8;
 }
-
 
 footer nav{
   background-color: #000;
