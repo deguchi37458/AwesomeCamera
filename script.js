@@ -46,3 +46,14 @@ var mySwiper = new Swiper('.swiper-container', {
     },
   });
 
+
+// footerアコーディオン
+const title = document.querySelectorAll('.js-accordion');
+for(let i=0; i<title.length; i++){
+  let titleEach = title[i];
+  let content = titleEach.nextElementSibling;
+  titleEach.addEventListener("click", function(){
+    titleEach.classList.toggle("is-active");
+    content.classList.toggle("is-open");
+  });
+}
